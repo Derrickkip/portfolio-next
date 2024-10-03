@@ -6,7 +6,7 @@ const profPic = require('../images/derrick.jpg')
 
 export default function Index() {
     return (
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-space-mono)]">
+        <div className="grid grid-rows-[20px_1fr_20px] items-center min-h-screen justify-items-center p-8 pb-20 sm:p-20 ">
             <main className="flex flex-col md:flex-row lg:justify-between md:gap-8 row-start-2 items-center">
                 <div className="w-full h-full md:order-1 pb-8 lg:pb-0">
                     <Image src={profPic} alt="profile picture" width={200} height={200} className="w-64 h-full md:w-96 mx-auto rounded-full" />
