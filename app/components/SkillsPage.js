@@ -4,9 +4,9 @@ import SkillCard from "./SkillCard"
 
 export default function Skills() {
     return (
-        <div className="grid grid-rows-[30px_1fr_1fr] min-h-screen  min-h-screen p-8 pb-20 sm:p-20">
+        <div className="grid grid-rows-[30px_1fr_1fr] min-h-screen  min-h-screen p-8 pb-20 sm:p-20 z-50">
             <div>
-                <h3 className="text-sm md:text-lg text-gray-500">&lt;Skills&gt;</h3>
+                <h3 className="text-sm md:text-lg text-gray-500 z-50">&lt;Skills&gt;</h3>
             </div>
             <div className="flex flex-col md:flex-row justify-between w-full gap-8">
                 <div className="md:w-1/2">
@@ -19,7 +19,7 @@ export default function Skills() {
                         <li>Chatbot development, extensive experience in Telegram</li>
                     </ul>
                 </div>
-                <div className="md:w-1/3 grid grid-cols-5">
+                <div className="md:w-1/3 grid grid-cols-5 z-50">
                     {skills.softwareSkills.map((skill, index) => {
                         return (
                             <div className="w-8 md:w-10 h-10 mb-4" key={index}>
@@ -29,11 +29,11 @@ export default function Skills() {
                     })}
                 </div>
             </div>
-            <div>
+            <div className="z-50">
                 <div>
                     <h3 className="text-sm md:text-lg text-gray-500">&lt;Advantages&gt;</h3>
                 </div>
-                <div className="grid grid-cols-3 gap-12">
+                <div className="grid md:grid-cols-3 gap-12">
                     {skillAdvantages.advantages.map((advantage, index) => {
                         return (
                             <SkillCard skill={advantage} index={index} />
