@@ -88,19 +88,19 @@ const skills = {
 const skillAdvantages = {
     advantages: [
         {
-            src: '',
+            src: require("./icons/rss.png"),
             title: 'Communication',
             alt: 'communication icon',
             details: 'I believe that proactive communication is a key ingredient for successful collaboration on a project and therefore I make every effort to clearly understand clients expectations and constantly update on progress.'
         },
         {
-            src: '',
+            src: require("./icons/people.png"),
             title: 'Team Player',
             alt: 'business icon',
             details: 'Magic happens when we work together with each individual bringing their unique talents and '
         },
         {
-            src: '',
+            src: require("./icons/calendar.png"),
             title: 'Privacy',
             alt: 'privacy icon',
             details: 'Some projects have unique propertirs that shouldn\'t be public until the end of implemetation or even after.'
