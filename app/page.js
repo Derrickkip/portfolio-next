@@ -1,6 +1,7 @@
 import HackerBackground from "./components/Background";
 import Hero from "./sections/Hero";
 import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             {/* <HackerBackground className="z-0"/> */}
             <Hero />
             <Skills />
+            <Contact />
         </div>
     );
 }
