@@ -1,11 +1,10 @@
 import Image from "next/image";
 
-import Button from "./Button";
-import HackerBackground from "./Background";
+import Button from "../components/Button";
 
 const profPic = require('../images/derrick.jpg')
 
-export default function Index() {
+export default function Hero() {
     return (
             <div className="grid grid-rows-[20px_1fr_20px] items-center min-h-screen justify-items-center p-8 pb-20 sm:p-20 z-50">
                 <main className="flex flex-col md:flex-row lg:justify-between md:gap-8 row-start-2 items-center">

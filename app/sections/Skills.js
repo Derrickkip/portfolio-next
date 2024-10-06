@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { skills, skillAdvantages } from "../data"
-import SkillCard from "./SkillCard"
+import SkillCard from "../components/SkillCard"
 
 export default function Skills() {
     return (
