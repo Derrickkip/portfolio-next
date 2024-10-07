@@ -23,7 +23,7 @@ export default function Skills() {
                         {skills.softwareSkills.map((skill, index) => {
                             return (
                                 <div className="w-8 md:w-10 h-10 mb-4" key={index}>
-                                    <Image alt={skill.skillName} src={skill.svgIcon} />
+                                    <Image alt={skill.skillName} src={skill.icon}/>
                                 </div>
                             )
                         })}

@@ -4,83 +4,83 @@ const skills = {
     softwareSkills: [
         {
             skillName: "Python",
-            svgIcon: require("./icons/Python.svg"),
+            icon: require("./icons/Python.svg"),
         },
         {
             skillName: "Javascript",
-            svgIcon: require("./icons/JavaScript.svg"),
+            icon: require("./icons/JavaScript.svg"),
         },
         {
             skillName: "Postgresql",
-            svgIcon: require("./icons/PostgresSQL.svg"),
+            icon: require("./icons/PostgresSQL.svg"),
         },
         {
             skillName: "Github",
-            svgIcon: require("./icons/GitHub.svg"),
+            icon: require("./icons/GitHub.svg"),
         },
         {
             skillName: "React",
-            svgIcon: require("./icons/React.svg"),
+            icon: require("./icons/React.svg"),
         },
         {
             skillName: "Redux",
-            svgIcon: require("./icons/Redux.svg"),
+            icon: require("./icons/Redux.svg"),
         },
         {
             skillName: "Node",
-            svgIcon: require("./icons/Node.js.svg"),
+            icon: require("./icons/Node.js.svg"),
         },
         {
             skillName: "Graphql",
-            svgIcon: require("./icons/GraphQL.svg"),
+            icon: require("./icons/GraphQL.svg"),
         },
         {
             skillName: "Flask",
-            svgIcon: require("./icons/Flask.svg"),
+            icon: require("./icons/Flask.svg"),
         },
         {
             skillName: "Django",
-            svgIcon: require("./icons/Django.svg"),
+            icon: require("./icons/Django.svg"),
         },
         {
             skillName: "Django Rest",
-            svgIcon: require("./icons/Django-REST.svg"),
+            icon: require("./icons/Django-REST.svg"),
         },
         {
             skillName: "Cucumber",
-            svgIcon: require("./icons/Cucumber.svg"),
+            icon: require("./icons/Cucumber.svg"),
         },
         {
             skillName: "Cypress",
-            svgIcon: require("./icons/Cypress.svg"),
+            icon: require("./icons/Cypress.svg"),
         },
         {
             skillName: "AWS",
-            svgIcon: require("./icons/AWS.svg"),
+            icon: require("./icons/AWS.svg"),
         },
         {
             skillName: "Docker",
-            svgIcon: require("./icons/Docker.svg"),
+            icon: require("./icons/Docker.svg"),
         },
         {
             skillName: "Git",
-            svgIcon: require("./icons/Git.svg"),
+            icon: require("./icons/Git.svg"),
         },
         {
             skillName: "HTML",
-            svgIcon: require("./icons/HTML5.svg"),
+            icon: require("./icons/HTML5.svg"),
         },
         {
             skillName: "CSS",
-            svgIcon: require("./icons/CSS3.svg"),
+            icon: require("./icons/CSS3.svg"),
         },
         {
             skillName: "Tailwinds",
-            svgIcon: require("./icons/Tailwind-CSS.svg"),
+            icon: require("./icons/Tailwind-CSS.svg"),
         },
         {
             skillName: "Magento",
-            svgIcon: require("./icons/Magento.svg"),
+            icon: require("./icons/Magento.svg"),
         }
     ]
 }
