@@ -14,25 +14,24 @@ export default function Navbar() {
     }
 
     return (
-        <div className=" z-50 fixed w-[48px] h-[48px] m-4">
+        <nav className=" z-50 fixed w-full h-full m-4">
             <Hamburger toggled={isOpen} toggle={setIsOpen} />
-            <div>
                 {isOpen && (
-                    <ul className="menu">
-                        <li className="item">
-                            <a href="#home" className="link" onClick={() => { goToAnchor('home'); toggleNavbarCollapse() }}>Home</a>
+                    <ul className="flex flex-col items-center w-full h-[100vh] left-0 top-0">
+                        <li className="">
+                            <a href="#home" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('home'); toggleNavbarCollapse() }}>Home</a>
                         </li>
                         <li className="item">
-                            <a href="#skills" className="link" onClick={() => { goToAnchor('skills'); toggleNavbarCollapse() }}>Skills</a>
+                            <a href="#skills" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('skills'); toggleNavbarCollapse() }}>Skills</a>
                         </li>
                         <li className="item">
-                            <a href="#experience" className="link" onClick={() => { goToAnchor('experience'); toggleNavbarCollapse() }}>Projects</a>
+                            <a href="#experience" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('experience'); toggleNavbarCollapse() }}>Projects</a>
                         </li>
                         <li className="item">
-                            <a href="#blog" className="link" onClick={() => { goToAnchor('blog'); toggleNavbarCollapse() }}>Blog</a>
+                            <a href="#blog" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('blog'); toggleNavbarCollapse() }}>Blog</a>
                         </li>
                         <li className="item">
-                            <a href="#contact" className="link" onClick={() => { goToAnchor('contact'); toggleNavbarCollapse() }}>Contact</a>
+                            <a href="#contact" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('contact'); toggleNavbarCollapse() }}>Contact</a>
                         </li>
                         <div className='items'>
                             <a href="https://github.com/Derrickkip" className="icon-button github" target="_blank" rel="noopener noreferrer">
@@ -60,7 +59,6 @@ export default function Navbar() {
                     </ul>
                 )
                 }
-            </div>
-        </div>
+        </nav>
     )
 }
