@@ -14,24 +14,24 @@ export default function Navbar() {
     }
 
     return (
-        <nav className=" z-50 fixed w-full h-full m-4">
-            <Hamburger toggled={isOpen} toggle={setIsOpen} />
+        <nav className=" z-50 fixed w-full h-full">
+            <Hamburger toggled={isOpen} toggle={setIsOpen} className="fixed"/>
                 {isOpen && (
-                    <ul className="flex flex-col items-center w-full h-[100vh] left-0 top-0">
-                        <li className="">
-                            <a href="#home" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('home'); toggleNavbarCollapse() }}>Home</a>
+                    <ul className="bg-[#000000] flex flex-col items-center justify-center w-full h-full left-0 top-0">
+                        <li className="mb-4">
+                            <a href="#home" className="text-2xl md:text-4xl w-[25px] p-4 cursor-pointer" onClick={() => { goToAnchor('home'); toggleNavbarCollapse() }}>Home</a>
                         </li>
-                        <li className="item">
-                            <a href="#skills" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('skills'); toggleNavbarCollapse() }}>Skills</a>
+                        <li className="mb-4">
+                            <a href="#skills" className="text-2xl md:text-4xl w-[25px] p-4 cursor-pointer" onClick={() => { goToAnchor('skills'); toggleNavbarCollapse() }}>Skills</a>
                         </li>
-                        <li className="item">
-                            <a href="#experience" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('experience'); toggleNavbarCollapse() }}>Projects</a>
+                        <li className="mb-4">
+                            <a href="#experience" className="text-2xl md:text-4xl w-[25px] p-4 cursor-pointer" onClick={() => { goToAnchor('experience'); toggleNavbarCollapse() }}>Projects</a>
                         </li>
-                        <li className="item">
-                            <a href="#blog" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('blog'); toggleNavbarCollapse() }}>Blog</a>
+                        <li className="mb-4">
+                            <a href="#blog" className="text-2xl md:text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('blog'); toggleNavbarCollapse() }}>Blog</a>
                         </li>
-                        <li className="item">
-                            <a href="#contact" className="text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('contact'); toggleNavbarCollapse() }}>Contact</a>
+                        <li className="mb-4">
+                            <a href="#contact" className="text-2xl md:text-4xl w-[25px] p-2 cursor-pointer" onClick={() => { goToAnchor('contact'); toggleNavbarCollapse() }}>Contact</a>
                         </li>
                         <div className='items'>
                             <a href="https://github.com/Derrickkip" className="icon-button github" target="_blank" rel="noopener noreferrer">
