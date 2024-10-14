@@ -1,4 +1,4 @@
-import {BoldIcon} from '@heroicons/react/24/outline'
+import { BoldIcon } from '@heroicons/react/24/outline'
 
 const skills = {
     softwareSkills: [
@@ -109,4 +109,24 @@ const skillAdvantages = {
     ]
 }
 
-export { skills, skillAdvantages }
+const experience = {
+    projects: [
+        {
+            title: 'Kingdom316 gifts',
+            description: 'Eccomerce website that allows users to personalise gifts.',
+            image: require('./images/kingdom.png'), // Replace with actual image path
+        },
+        {
+            title: 'Bricklane',
+            description: 'This is a description of project 2.',
+            image: require('./images/bricklanehome.png'),
+        },
+        {
+            title: 'Kingdom316 gifts',
+            description: 'Eccomerce website that allows users to personalise gifts.',
+            image: require('./images/kingdom.png'), // Replace with actual image path
+        },
+    ]
+};
+
+export { skills, skillAdvantages, experience }
